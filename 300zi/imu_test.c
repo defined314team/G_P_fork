@@ -142,7 +142,7 @@ int main(int argc, char **argv)
 		
 		if(bytes_waiting < 1) continue;
 
-		// printf("state = %d, bytes_wating = %d\n", rcv_state, bytes_waiting);
+		printf("state = %d, bytes_wating = %d\n", rcv_state, bytes_waiting);
 
 		switch(rcv_state)
 		{
